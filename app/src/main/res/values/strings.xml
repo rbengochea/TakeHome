@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TendoTakeHome</string>
+
+    <string name="hi_patient">Hi, %s. We hope your visit to Dr. %s went well.</string>
+    <string name="would_you_recommend">On a scale from 1–10, would you recommend Dr. %s to a friend or a family member?</string>
+    <string name="one_to_ten">1= Would not, 10= Strongly Recommend</string>
+
+    <string name="diagnosis">Thank you! You were diagnosed with %s. Did Dr. %s explain how to manage this diagnosis in a way that made sense to you?</string>
+    <string name="feedback">We appreciate your feedback! One last question… How do you feel about being diagnosed with %s?</string>
+
+    <string name="understood_diagnosis">It seems from your feedback you understood your diagnosis. We are glad to hear it! Just to make sure we got it right, you said: %s</string>
+    <string name="unclear_diagnosis">Hmm. We can\'t figure out if you understood your diagnosis or not. Just to make sure we got it right, you said: %s</string>
+    <string name="didnt_understand_diagnosis">It seems from your feedback you did not understand your diagnosis. We are so sorry to hear that and we will be forwarding that on. Just to make sure we got it right, you said: %s</string>
+
+    <string name="loved_doctor">Your rating of %d also indicates that you would strongly recommend Dr. %s. That is awesome!</string>
+    <string name="mediocre_doctor">Your rating of %d also indicates that you would might recommend Dr. %s. We are sorry it was only mediocre.</string>
+    <string name="hated_doctor">Your rating of %d also indicates that you would not recommend Dr. %s. We are sorry to hear that and hope that we can improve that in the future.</string>
+
+    <string name="about_your_feelings">To confirm, your feelings about your diagnosis are: %s</string>
+
+    <string name="if_that_looks_good">If that looks right…</string>
+
+    <string name="error_loading_page">Error Loading Page…</string>
+    <string name="confirm">Confirm</string>
+    <string name="done">Done</string>
+</resources>

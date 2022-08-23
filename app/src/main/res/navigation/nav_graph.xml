@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/client_feedback">
+    <navigation android:id="@+id/client_feedback"
+        app:startDestination="@id/doctorRecommendFragment">
+        <fragment
+            android:id="@+id/doctorRecommendFragment"
+            android:name="com.tendo.takehome.patientfeedback.DoctorRecommendFragment"
+            android:label="fragment_doctor_recommend"
+            tools:layout="@layout/fragment_doctor_recommend">
+            <action
+                android:id="@+id/action_doctorRecommendFragment_to_diagnosisFragment"
+                app:destination="@id/diagnosisFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/diagnosisFragment"
+            android:name="com.tendo.takehome.patientfeedback.DiagnosisFragment"
+            android:label="fragment_diagnosis"
+            tools:layout="@layout/fragment_diagnosis">
+            <action
+                android:id="@+id/action_diagnosisFragment_to_recapFragment"
+                app:destination="@id/recapFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/recapFragment"
+            android:name="com.tendo.takehome.patientfeedback.RecapFragment"
+            android:label="fragment_recap"
+            tools:layout="@layout/fragment_recap" />
+    </navigation>
+</navigation>

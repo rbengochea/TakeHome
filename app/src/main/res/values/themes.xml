@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TendoTakeHome" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/dark_grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_grey</item>
+        <item name="colorSecondaryVariant">@color/grey</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PrimaryButton" parent="TextAppearance.AppCompat.Widget.Button.Borderless.Colored">
+        <item name="background">@color/pink</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/button_height</item>
+        <item name="cornerRadius">@dimen/button_corners</item>
+    </style>
+</resources>
